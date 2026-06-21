@@ -1,0 +1,62 @@
+.home-container {
+  height: 100vh;
+  width: 100%;
+  font-family: roboto;
+}
+.home-inner-container {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.instructions-container {
+  height: 361px;
+  width: 450px;
+  box-shadow: 1px 1px 5px 5px #7b879429;
+  border-radius: 5px;
+  margin: 10px;
+  padding-left: 30px;
+}
+.heading {
+  color: #0a013fd0;
+}
+.home-image {
+  height: 330px;
+  width: 400px;
+  margin-left: 40px;
+}
+.instructions {
+  font-size: 15px;
+  font-weight: 600;
+  color: #0a013f91;
+  padding: 8px;
+}
+.text {
+  font-weight: normal;
+}
+.start-btn {
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  border-width: 0px;
+  background-color: #0a013fd0;
+  color: white;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .home-container {
+    height: 150vh;
+  }
+  .home-inner-container {
+    height: 120vh;
+    flex-direction: column;
+  }
+  .instructions-container {
+    order: 1;
+  }
+  .home-image {
+    height: 250px;
+    width: 300px;
+    margin: 30px;
+  }
+}

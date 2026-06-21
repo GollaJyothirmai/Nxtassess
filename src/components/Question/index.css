@@ -1,0 +1,42 @@
+.options {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.question {
+  display: flex;
+  flex-direction: column;
+}
+
+.option {
+  height: 40px;
+  width: 100px;
+  border-width: 0px;
+  background-color: Light / blue-gray / 700;
+  margin: 8px;
+  cursor: pointer;
+}
+.next-btn {
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  border-width: 0px;
+  background-color: #0a013fd0;
+  color: white;
+  cursor: pointer;
+  align-self: center;
+}
+.image-option {
+  height: 50px;
+  width: 100px;
+}
+.select-option {
+  height: 40px;
+  width: 100px;
+}
+.warning-container {
+  height: 40px;
+  width: 90%;
+  background-color: antiquewhite;
+  display: flex;
+}

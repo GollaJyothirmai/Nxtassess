@@ -1,0 +1,38 @@
+.bg-result-container {
+  height: 100vh;
+  width: 100%;
+}
+
+.result-bg-container {
+  height: 90vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+  background-color: white;
+}
+.result-container {
+  height: 500px;
+  width: 500px;
+  box-shadow: 1px 1px 5px 5px #7b879429;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+  background-color: white;
+}
+.result-image {
+  height: 200px;
+  width: 300px;
+}
+.display-none {
+  display: none;
+}
+.congrats-heading {
+  text-align: center;
+}
